@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --sentra-db01-canvas: #3e3e3e;
+  --sentra-db01-shell: #1b1b1b;
+  --sentra-db01-sidebar: #181818;
+  --sentra-db01-raised: #282828;
+  --sentra-db01-text: #f4f4f1;
+  --sentra-db01-muted: #90908d;
+  --sentra-db01-divider: rgb(255 255 255 / 6%);
+  --sentra-db01-accent-green: #30d069;
+  --sentra-db01-accent-blue: #1399e9;
+  --sentra-db01-accent-red: #f53b37;
+  --sentra-db01-font: "Avenir Next", "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; }
+html { min-width: 320px; background: var(--sentra-db01-canvas); }
+body { margin: 0; min-height: 100vh; background: var(--sentra-db01-canvas); color: var(--sentra-db01-text); font-family: var(--sentra-db01-font); }
+button, input { font: inherit; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 2px solid #d9d9d7; outline-offset: 3px; }
